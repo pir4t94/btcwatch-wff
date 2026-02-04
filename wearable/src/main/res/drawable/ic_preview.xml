@@ -5,69 +5,49 @@
     android:viewportWidth="400"
     android:viewportHeight="400">
     <!-- Background -->
-    <rect
-        android:width="400"
-        android:height="400"
-        android:fillColor="#1A1A1A" />
-    <!-- Watch dial -->
-    <circle
-        android:cx="200"
-        android:cy="200"
-        android:r="180"
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z" />
+    <!-- Watch dial circle -->
+    <path
         android:fillColor="#1A1A1A"
         android:strokeColor="#F7931A"
-        android:strokeWidth="4" />
-    <!-- Hour markers (simplified) -->
-    <line
-        android:x1="200"
-        android:y1="40"
-        android:x2="200"
-        android:y2="60"
+        android:strokeWidth="4"
+        android:pathData="M 20,200 A 180,180 0 1,1 380,200 A 180,180 0 1,1 20,200" />
+    <!-- Hour marker Top (converted from line) -->
+    <path
         android:strokeColor="#F7931A"
-        android:strokeWidth="2" />
-    <line
-        android:x1="320"
-        android:y1="200"
-        android:x2="340"
-        android:y2="200"
+        android:strokeWidth="2"
+        android:pathData="M 200,40 L 200,60" />
+    <!-- Hour marker Right -->
+    <path
         android:strokeColor="#F7931A"
-        android:strokeWidth="2" />
-    <line
-        android:x1="200"
-        android:y1="340"
-        android:x2="200"
-        android:y2="360"
+        android:strokeWidth="2"
+        android:pathData="M 320,200 L 340,200" />
+    <!-- Hour marker Bottom -->
+    <path
         android:strokeColor="#F7931A"
-        android:strokeWidth="2" />
-    <line
-        android:x1="80"
-        android:y1="200"
-        android:x2="60"
-        android:y2="200"
+        android:strokeWidth="2"
+        android:pathData="M 200,340 L 200,360" />
+    <!-- Hour marker Left -->
+    <path
         android:strokeColor="#F7931A"
-        android:strokeWidth="2" />
+        android:strokeWidth="2"
+        android:pathData="M 80,200 L 60,200" />
     <!-- Hour hand -->
-    <line
-        android:x1="200"
-        android:y1="200"
-        android:x2="200"
-        android:y2="120"
+    <path
         android:strokeColor="#FFFFFF"
         android:strokeWidth="8"
-        android:strokeLineCap="round" />
+        android:strokeLineCap="round"
+        android:pathData="M 200,200 L 200,120" />
     <!-- Minute hand -->
-    <line
-        android:x1="200"
-        android:y1="200"
-        android:x2="200"
-        android:y2="80"
+    <path
         android:strokeColor="#FFFFFF"
         android:strokeWidth="6"
-        android:strokeLineCap="round" />
+        android:strokeLineCap="round"
+        android:pathData="M 200,200 L 200,80" />
     <!-- Center dot -->
-    <circle
-        android:cx="200"
-        android:cy="200"
-        android:r="8"
-        android:fillColor="#FFFFFF" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 192,192 A 8,8 0 0,1 208,192 A 8,8 0 0,1 192,192" />
 </vector>
