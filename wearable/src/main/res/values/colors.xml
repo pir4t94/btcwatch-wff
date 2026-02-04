@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bitcoin Gold Theme -->
+    <color name="bitcoin_gold_primary">#F7931A</color>
+    <color name="bitcoin_gold_secondary">#FFD700</color>
+    <color name="bitcoin_gold_background">#1A1A1A</color>
+    <color name="bitcoin_gold_text">#FFFFFF</color>
+    <color name="bitcoin_gold_accent">#F7931A</color>
+
+    <!-- Silver Theme -->
+    <color name="silver_primary">#C0C0C0</color>
+    <color name="silver_secondary">#E8E8E8</color>
+    <color name="silver_background">#1A1A1A</color>
+    <color name="silver_text">#FFFFFF</color>
+    <color name="silver_accent">#A9A9A9</color>
+
+    <!-- Satoshi Green Theme -->
+    <color name="satoshi_green_primary">#27AE60</color>
+    <color name="satoshi_green_secondary">#2ECC71</color>
+    <color name="satoshi_green_background">#0D2818</color>
+    <color name="satoshi_green_text">#FFFFFF</color>
+    <color name="satoshi_green_accent">#1ABC9C</color>
+
+    <!-- Ice Blue Theme -->
+    <color name="ice_blue_primary">#3498DB</color>
+    <color name="ice_blue_secondary">#5DADE2</color>
+    <color name="ice_blue_background">#0F1419</color>
+    <color name="ice_blue_text">#ECF0F1</color>
+    <color name="ice_blue_accent">#2E86C1</color>
+
+    <!-- System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

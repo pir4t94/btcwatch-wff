@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+    <!-- Background -->
+    <rect
+        android:width="400"
+        android:height="400"
+        android:fillColor="#1A1A1A" />
+    <!-- Watch dial -->
+    <circle
+        android:cx="200"
+        android:cy="200"
+        android:r="180"
+        android:fillColor="#1A1A1A"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="4" />
+    <!-- Hour markers (simplified) -->
+    <line
+        android:x1="200"
+        android:y1="40"
+        android:x2="200"
+        android:y2="60"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="2" />
+    <line
+        android:x1="320"
+        android:y1="200"
+        android:x2="340"
+        android:y2="200"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="2" />
+    <line
+        android:x1="200"
+        android:y1="340"
+        android:x2="200"
+        android:y2="360"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="2" />
+    <line
+        android:x1="80"
+        android:y1="200"
+        android:x2="60"
+        android:y2="200"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="2" />
+    <!-- Hour hand -->
+    <line
+        android:x1="200"
+        android:y1="200"
+        android:x2="200"
+        android:y2="120"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+    <!-- Minute hand -->
+    <line
+        android:x1="200"
+        android:y1="200"
+        android:x2="200"
+        android:y2="80"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+    <!-- Center dot -->
+    <circle
+        android:cx="200"
+        android:cy="200"
+        android:r="8"
+        android:fillColor="#FFFFFF" />
+</vector>

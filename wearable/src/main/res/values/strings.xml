@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BTC Watch</string>
+    <string name="watch_face_name">Bitcoin Watch</string>
+    <string name="watch_face_description">Minimalistic Bitcoin-themed analog watch face with complications</string>
+
+    <!-- Theme names -->
+    <string name="theme_bitcoin_gold">Bitcoin Gold</string>
+    <string name="theme_silver">Silver</string>
+    <string name="theme_satoshi_green">Satoshi Green</string>
+    <string name="theme_ice_blue">Ice Blue</string>
+
+    <!-- Complications -->
+    <string name="complication_left_label">Left Complication</string>
+    <string name="complication_right_label">Right Complication</string>
+    <string name="complication_data_text">Date, Battery, Steps, or custom data</string>
+
+    <!-- Settings -->
+    <string name="color_theme">Color Theme</string>
+    <string name="color_theme_description">Select your preferred watch face color theme</string>
+</resources>

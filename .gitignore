@@ -1,0 +1,56 @@
+# Gradle files
+.gradle
+.gradle/
+build/
+*/build/
+*.class
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+
+# Local configuration
+local.properties
+.properties
+
+# IDE
+.idea/
+.ideaversion
+*.iml
+*.iws
+*.ipr
+.metadata
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+release.keystore
+*.keystore
+*.jks
+
+# Android Studio
+.gradle/
+local.properties
+.idea/
+*.iml
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Generated ProGuard files
+proguard_logs/
+mapping.txt
+seeds.txt
+unused.txt

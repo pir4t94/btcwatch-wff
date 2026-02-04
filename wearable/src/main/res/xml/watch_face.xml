@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableresources xmlns:android="http://schemas.android.com/apk/res/android">
+    <watchFace>
+        <metadata android:name="android.wear.watchface.preview" android:resource="@drawable/ic_preview" />
+        <metadata android:name="android.wear.watchface.previewCircular" android:resource="@drawable/ic_preview" />
+        <metadata android:name="android.wear.watchface.screenShape" android:value="round" />
+    </watchFace>
+</wearableresources>
